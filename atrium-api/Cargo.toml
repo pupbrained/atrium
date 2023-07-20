@@ -10,7 +10,6 @@ repository = "https://github.com/sugyan/atrium"
 license = "MIT"
 keywords = ["atproto", "bluesky"]
 
-
 [dependencies]
 atrium-xrpc = "0.3"
 async-trait = "0.1.68"
@@ -21,3 +20,4 @@ serde_bytes = "0.11.9"
 
 [dev-dependencies]
 tokio = { version = "1.28.0", features = ["macros", "rt-multi-thread"] }
+serde_json = "1.0.96"
