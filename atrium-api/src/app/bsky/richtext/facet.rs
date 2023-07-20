@@ -32,4 +32,6 @@ pub enum MainFeaturesItem {
     Mention(Box<Mention>),
     #[serde(rename = "app.bsky.richtext.facet#link")]
     Link(Box<Link>),
+    #[serde(rename = "app.pollblue.poll.facet#option")]
+    Option(Box<Link>),
 }
